@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class HelloWorld extends _react.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      greeting: 'Hello' };
+
+    this.frenchify = this.frenchify.bind(this);
+    this.englishify = this.englishify.bind(this);
+    this.spanishify = this.spanishify.bind(this);
+    this.removeGreeting = this.removeGreeting.bind(this);
+  }
+  frenchify() {
+    this.setState({ greeting: 'Bonjour' });
+  }
+  spanishify() {
+    this.setState({ greeting: 'Hola' });
+  }
+  englishify() {
+    this.setState({ greeting: 'Hello' });
+  }
+  removeGreeting() {
+    this.props.removeGreeting(this.props.name);
+  }
+  render() {
+    return (
+      _react2.default.createElement('div', { className: 'hello-world', __source: { fileName: _jsxFileName, lineNumber: 29 }, __self: this },
+        this.state.greeting, ', ', this.props.name, '!',
+        _react2.default.createElement('br', { __source: { fileName: _jsxFileName, lineNumber: 31 }, __self: this }),
+        _react2.default.createElement('button', { className: 'frenchify', onClick: this.frenchify, __source: { fileName: _jsxFileName, lineNumber: 32 }, __self: this }, 'Frenchify!'),
+        _react2.default.createElement('br', { __source: { fileName: _jsxFileName, lineNumber: 33 }, __self: this }),
+        _react2.default.createElement('button', { className: 'spanishify', onClick: this.spanishify, __source: { fileName: _jsxFileName, lineNumber: 34 }, __self: this }, 'Spanishify!'),
+        _react2.default.createElement('br', { __source: { fileName: _jsxFileName, lineNumber: 35 }, __self: this }),
+        _react2.default.createElement('button', { className: 'englishify', onClick: this.englishify, __source: { fileName: _jsxFileName, lineNumber: 36 }, __self: this }, 'Englishify!'),
+        _react2.default.createElement('br', { __source: { fileName: _jsxFileName, lineNumber: 37 }, __self: this }),
+        _react2.default.createElement('button', { className: 'remove', onClick: this.removeGreeting, __source: { fileName: _jsxFileName, lineNumber: 38 }, __self: this }, 'Remove Me!')));
+
+
+  }} renders and matches the snapshot 1`] = `
+<div
+  className="hello-world"
+>
+  Hello
+  , 
+  Person
+  !
+  <br />
+  <button
+    className="frenchify"
+    onClick={[Function]}
+  >
+    Frenchify!
+  </button>
+  <br />
+  <button
+    className="spanishify"
+    onClick={[Function]}
+  >
+    Spanishify!
+  </button>
+  <br />
+  <button
+    className="englishify"
+    onClick={[Function]}
+  >
+    Englishify!
+  </button>
+  <br />
+  <button
+    className="remove"
+    onClick={[Function]}
+  >
+    Remove Me!
+  </button>
+</div>
+`;

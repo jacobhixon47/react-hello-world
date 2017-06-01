@@ -1,0 +1,36 @@
+.hello-world {
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #223454;
+  color: #dddddd;
+}
+
+.spanishify, .englishify, .frenchify, .remove {
+  padding: 2%;
+  border: none;
+  width: 15%;
+  margin: 5px;
+  border-radius: 20px;
+  color: #eeeeee;
+}
+
+.spanishify:hover, .englishify:hover, .frenchify:hover {
+  background-color: #aaaaaa;
+  cursor: pointer;
+}
+
+.spanishify {
+  background-color: #553FFF;
+}
+
+.englishify {
+  background-color: #009922;
+}
+
+.frenchify, .remove {
+  background-color: #770F40;
+}

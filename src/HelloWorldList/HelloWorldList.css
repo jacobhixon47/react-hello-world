@@ -1,0 +1,10 @@
+.hello-list {
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid #00D8FF !important;
+  background: #DDEEFF !important;
+}
